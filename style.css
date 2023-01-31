@@ -1,3 +1,8 @@
+* {
+    /*This is making the default font sans-serif*/
+    font-family: sans-serif;
+}
+
 /* styling for date and time in top right corner {id} */
 #date-time {
     position: absolute;
@@ -12,10 +17,44 @@ h1 {
     margin-top: 50px;
     font-family: sans-serif;
 }
-  
+
+body {
+    background-color: lightblue;
+    overflow-x: hidden;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+#bullet-points {
+    /*ID selector (Element that is unique within a page)*/
+    font-family: sans-serif;
+    margin-left: 300px;
+    margin-top: -167px;
+    margin-bottom: 60px;
+}
+
+#p-center {
+    text-align: center;
+}
+
+img {
+    width: calc(25% - 20px);
+    height: auto;
+    object-fit: cover;
+    border: 2px solid black;
+}
+
+#head-shot {
+    margin-left: 1400px;
+    margin-top: -400px;
+    width: 800px;
+}
 
 /* styling for task bar */
 #task-bar {
+    /*Class selector (*/
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -23,15 +62,15 @@ h1 {
     text-align: center;
     font: 125% georgia, sans-serif;
 }
-  
+
 #task-bar a {
     display: inline-block;
-    padding: 10px 50px;
+    padding: 10px 60px;
     text-decoration: none;
     color: black;
 }
-  
-/* styling for gallery section {Classes} */
+
+/* styling for gallery section {Classes} 
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -39,27 +78,21 @@ h1 {
     justify-content: space-between;
     padding: 50px;
 }
-  
+
 .gallery img {
-  width: calc(25% - 20px);
-  height: auto;
-  object-fit: cover;
-  margin-bottom: 20px;
-}
-  
-.blue_overline_text{ /* Class selector "." */
-    color: blue; 
-    text-decoration: overline;
-}
 
-#red_underline_text{ /* ID Selector "#" */
-    color: red;
-    text-decoration: underline;
+    margin-bottom: 20px;
 }
+*/
 
-body { 
-	margin: 0; 
-	padding: 0;
-    height: 100vh;
-    background-size: cover;
-	}
+div.gallery {
+    margin: 110px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 220px;
+  }
+
+  div.gallery img {
+    width: 200%;
+    height: auto;
+  }
