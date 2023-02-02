@@ -21,6 +21,7 @@ h1 {
 body {
     background-color: lightblue;
     overflow-x: hidden;
+    height: 100vh;
 }
 
 p {
@@ -33,6 +34,25 @@ p {
     margin-left: 300px;
     margin-top: -167px;
     margin-bottom: 60px;
+}
+
+#current-job{
+    margin-top: 35px;
+}
+
+#contact-info{
+    margin-left: 280px;
+    margin-top: -80px;
+}
+
+#awards{
+    margin-left: 600px;
+    margin-top: -115px;
+}
+
+#hobbies{
+    margin-left: 950px;
+    margin-top: -115px;
 }
 
 #p-center {
@@ -48,7 +68,7 @@ img {
 
 #head-shot {
     margin-left: 1300px;
-    margin-top: -400px;
+    margin-top: -550px;
     width: 800px;
 }
 
