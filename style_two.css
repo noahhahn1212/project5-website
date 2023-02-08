@@ -1,0 +1,152 @@
+* {
+    /*This is making the default font sans-serif*/
+    font-family: sans-serif;
+}
+
+/* styling for date and time in top right corner {id} */
+#date-time {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 18px;
+}
+
+/* styling for title section */
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgba(128, 0, 0, 0.37);
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+#bullet-points {
+    /*ID selector (Element that is unique within a page)*/
+    font-family: sans-serif;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    margin-right: 1600px;
+    border: 2px solid black;
+}
+
+#resume{
+    margin-left: 450px;
+    margin-right: 50px;
+    margin-top: -400px;
+}
+
+#qualification-tech{
+    margin-right: 1600px;
+    margin-left: 100px;
+    margin-top: 30px;
+    border: 2px solid black;
+}
+
+#current-job{
+    margin-top: -250px;
+    margin-right: 1500px;
+    margin-left: 100px;
+    border: 2px solid black;
+}
+
+#contact-info{
+    margin-top: 5px;
+    margin-right: 1500px;
+    margin-left: 100px;
+    border: 2px solid black;
+}
+
+#index-aboutme{
+    border: 2px solid black;
+    margin-right: 200px;
+    margin-left: 500px;
+    margin-top: 15px;
+}
+
+#index-Why{
+    border: 2px solid black;
+    margin-right: 200px;
+    margin-left: 500px;
+    margin-top: 15px;
+}
+
+#awards{
+    margin-top: 5px;
+    margin-right: 1500px;
+    margin-left: 100px;
+    border: 2px solid black;
+}
+
+#hobbies{
+    margin-top: 5px;
+    margin-right: 1500px;
+    margin-left: 100px;
+    border: 2px solid black;
+}
+
+#p-center {
+    text-align: center;
+}
+
+img {
+    width: calc(25% - 20px);
+    height: auto;
+    object-fit: cover;
+    border: 2px solid black;
+}
+
+#head-shot {
+    margin-left: 150px;
+    margin-top: -780px;
+    width: 800px;
+}
+
+/* styling for task bar */
+#task-bar {
+    /*Class selector (*/
+    margin-top: -20px;
+    width: 100%;
+    background-color: #ddd;
+    text-align: center;
+    font: 125% georgia, sans-serif;
+}
+
+#Art-prompt{
+    border: 2px solid black;
+    margin-right: 150px;
+    margin-top: 20px;
+    margin-left: 1100px;
+}
+
+#art-gallery{
+    margin-right: 500px;
+    margin-top: -225px;
+}
+
+#task-bar a {
+    display: inline-block;
+    padding: 10px 60px;
+    text-decoration: none;
+    color: black;
+}
+
+div.gallery {
+    margin: 110px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 220px;
+  }
+
+  div.gallery img {
+    width: 200%;
+    height: auto;
+  }

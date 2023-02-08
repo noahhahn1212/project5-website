@@ -90,6 +90,34 @@ img {
     color: black;
 }
 
+#pos {
+    background-color: transparent;
+    position: fixed;
+    top: 0%;
+    right: 95%;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+.slider.round {
+    border-radius: 34px;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
 /* styling for gallery section {Classes} 
 .gallery {
     display: flex;

@@ -2,10 +2,13 @@
 
 <head>
     <title>Noah Hahn</title>
-    <link rel="Stylesheet" href="style.css"><!--brings in the style-->
+    <link id = "css" rel = "stylesheet" type = "text/css" href = "style.css">
 </head>
 
 <body>
+    <div>
+        <button onclick = "toggleStyleSheet()"> Click Me </button> 
+    </div>
     <!--This is the date/time in the top right-->
     <div id="date-time">
         <script>
@@ -27,7 +30,7 @@
     </div>
 
     <!--about me paragraph-->
-    <div>
+    <div id = "index-aboutme">
         <p>
         <h2> About Me:</h2>
         <p>Howdy! This is my website and its main goal is to show you who I am and to give you some insite on what I am interested in. I am currently a student</p>
@@ -37,7 +40,7 @@
         </p>
     </div>
     <!--Why Computer Engineering paragraph-->
-    <div>
+    <div id = "index-Why">
         <p>
         <h3> Why Computer Engieering?</h3>
         <p>When going into college I was very unsure of what major to go into, the only thing that I found interest in when I was in high school was computers </p>
@@ -48,6 +51,7 @@
         <p>fell in love with it. Ever since then I have been thriving and growing as a computer engineering student and hope to continue this journey for years to come.</p>
         </p>
     </div>
+    
     <!--Current Job paragraph-->
     <div id = "current-job">
         <p>
@@ -55,16 +59,16 @@
         IT Helpdesk TAMU Libraries
         </p>
     </div>
+    
     <!--Contact Information paragraph-->
     <div id = "contact-info">
         <p>
         <h3>Contact Information: </h3>
         <li>Email: Noahhome9@gmail.com</li>
         <li> <a href="https://www.linkedin.com/in/noah-hahn-5aa1311bb/">LinkedIn</a></li>
-        <li>Github</li>
         </p>
     </div>
-
+    
     <!--Awards/Organization paragraph-->
     <div id = "awards">
         <p>
@@ -74,6 +78,7 @@
         <li><a href="https://www.nhs.us/">NHS (National Honors Society)</a></li>
         </p>
     </div>
+
     <!--Hobbies paragraph-->
     <div id = "hobbies">
         <p>
@@ -84,9 +89,9 @@
         <li>MS Paint</li>
         </p>
     </div>
+    
 
-
-
+    <!---->
     <div id="head-shot">
         <img src="Pictures/HeadShot.jpg" alt="Headshot" width=250 height=325>
     </div>
@@ -96,7 +101,8 @@
 
         </div>
     </div>
-
+    
+    <script scr = "functions.js"></script>
 </body>
 
 </html>
