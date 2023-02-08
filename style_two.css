@@ -1,6 +1,6 @@
 * {
     /*This is making the default font sans-serif*/
-    font-family: sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* styling for date and time in top right corner {id} */
@@ -113,7 +113,8 @@ img {
 /* styling for task bar */
 #task-bar {
     /*Class selector (*/
-    margin-top: -20px;
+    position: fixed;
+    bottom: 0;
     width: 100%;
     background-color: #ddd;
     text-align: center;
